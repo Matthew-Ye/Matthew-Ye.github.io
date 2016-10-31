@@ -98,22 +98,15 @@ def show
   end
 end
 {% endhighlight %}
-    
-PS:如果给代码段要添加行号，将最后\{% endhighlight %\}改为\{% highlight ruby linenos %\}
 
 
 实现:
 	
-\{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-\{% endhighlight %}
+前部加\{% highlight 语言 %}
 
+后部加\{% endhighlight %}
+
+PS:如果给代码段要添加行号，将最后\{% endhighlight %\}改为\{% highlight ruby linenos %\}
 
 
 ## 参考资料
