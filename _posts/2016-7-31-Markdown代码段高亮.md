@@ -85,6 +85,36 @@ hello world
 
 <br>
 
+## Jekyll自带高亮
+
+如下:
+
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
+    
+    
+实现:
+
+```
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
+```
+
+
 ## 参考资料
 
 作者：Chen Luo
