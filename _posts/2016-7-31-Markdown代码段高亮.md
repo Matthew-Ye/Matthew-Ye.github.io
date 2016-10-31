@@ -102,11 +102,11 @@ end
 
 实现:
 	
-前部加\{% highlight 语言 %}
+前部加 `｛% highlight 语言 %｝`(这里用中文输入，实际为英文输入法下)
 
-后部加\{% endhighlight %}
+后部加 `｛% endhighlight %｝`
 
-PS:如果给代码段要添加行号，将最后\{% endhighlight %\}改为\{% highlight ruby linenos %\}
+PS:如果给代码段要添加行号，将最后`｛% endhighlight %｝`改为`｛% highlight ruby linenos %｝`
 
 
 ## 参考资料
