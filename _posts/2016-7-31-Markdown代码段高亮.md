@@ -103,6 +103,10 @@ end
 实现:
 	
 ---
+\{ =&gt; {
+
+---
+
 
 \{% highlight ruby %\}
 def show
