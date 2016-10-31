@@ -112,7 +112,7 @@ PS:如果给代码段要添加行号，将最后\{% endhighlight %\}改为\{% hi
 	    format.json \{ render json: @widget \}
 	  end
 	end
-	\{% endhighlight %}
+	\{% \endhighlight %}
 
 
 
