@@ -103,7 +103,7 @@ end
 实现:
 
 
-	{% highlight ruby %}
+	\{% highlight ruby %\}
 	def show
 	  @widget = Widget(params[:id])
 	  respond_to do |format|
@@ -111,7 +111,7 @@ end
 	    format.json { render json: @widget }
 	  end
 	end
-	{% endhighlight %}
+	\{% endhighlight %\}
 
 
 
