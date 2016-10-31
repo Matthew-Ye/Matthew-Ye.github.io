@@ -104,7 +104,7 @@ PS:如果给代码段要添加行号，将最后\{% endhighlight %\}改为\{% hi
 
 实现:
 	
-	\{% highlight ruby %\}
+	\{% highlight ruby %}
 	def show
 	  @widget = Widget(params[:id])
 	  respond_to do |format|
@@ -112,7 +112,7 @@ PS:如果给代码段要添加行号，将最后\{% endhighlight %\}改为\{% hi
 	    format.json \{ render json: @widget \}
 	  end
 	end
-	\{% endhighlight %\}
+	\{% endhighlight %}
 
 
 
