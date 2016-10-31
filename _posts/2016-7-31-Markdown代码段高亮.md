@@ -9,6 +9,9 @@ description: 参考网上资料，学习使用hightlight.js将Markdown中的代�
 
 使用hightlight.js将Markdown中的代码段高亮显示。
 
+![My helpful screenshot]({{ site.url }}/img/p_total.png)
+
+
 <br>
 **系统**：Mac   
 **软件**：Mou
