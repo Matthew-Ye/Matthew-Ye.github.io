@@ -99,10 +99,11 @@ def show
 end
 {% endhighlight %}
     
-    
+PS:如果给代码段要添加行号，将最后\{% endhighlight %\}改为\{% highlight ruby linenos %\}
+
+
 实现:
 	
-
 	\{% highlight ruby %\}
 	def show
 	  @widget = Widget(params[:id])
