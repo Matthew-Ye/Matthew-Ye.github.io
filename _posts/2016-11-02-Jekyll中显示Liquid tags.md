@@ -33,7 +33,7 @@ div{
 {% endraw %}
 ```
 
-<<<<<<< HEAD
+
 ## 使用方法：
 
 ```
@@ -41,17 +41,17 @@ div{
 content
 {% endraw %}
 ```
-=======
-## 使用方法：代码段前加RAW标签，后加ENDRAW标签
->>>>>>> origin/master
+
 
 源代码：
 
 ```
-{% raw %}{% raw %}{% highlight CSS %}
+{% raw %}
+{% raw %}{% highlight CSS %}
 div{
 	color:red;
 }
-{% endhighlight CSS linenos %}{% endraw %}{% endraw %}
+{% endhighlight CSS linenos %}{% endraw %}
+{% endraw %}
 ```
 ```
