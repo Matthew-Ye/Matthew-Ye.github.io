@@ -24,14 +24,22 @@ div{
 如果使用`{% raw %}` 标签，则显示如下：
 
 ```
-{% raw %}{% highlight CSS %}
+{% raw %}
+{% highlight CSS %}
 div{
 	color:red;
 }
-{% endhighlight CSS linenos %}{% endraw %}
+{% endhighlight CSS linenos %}
+{% endraw %}
 ```
 
-## 使用方法：代码段前加`raw`标签，后加`endraw`
+## 使用方法：
+
+```
+{% raw %}
+content
+{% endraw %}
+```
 
 源代码：
 
