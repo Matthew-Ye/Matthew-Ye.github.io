@@ -102,7 +102,7 @@ end
 
 实现:
 	
-前部加`{% raw %}{% highlight ruby/other language %}{% endraw %}`(这里用中文输入，实际为英文输入法下)
+前部加`{% raw %}{% highlight ruby/other_language %}{% endraw %}`(这里用中文输入，实际为英文输入法下)
 
 后部加 `{% raw %}{% endhighlight %}{% endraw %}`
 
@@ -111,7 +111,8 @@ PS:如果给代码段要添加行号，将最后`{% raw %}{% endhighlight %}{% e
 代码：
 
 ```
- {% raw %}{% highlight ruby %}
+ {% raw %}
+ {% highlight ruby/other_language %}
 def show
   @widget = Widget(params[:id])
   respond_to do |format|
@@ -119,7 +120,7 @@ def show
     format.json { render json: @widget }
   end
 end
-{% endhighlight %}{% endraw %}
+{% endhighlight ruby linenos %}{% endraw %}
 ```
 
 ## 参考资料
