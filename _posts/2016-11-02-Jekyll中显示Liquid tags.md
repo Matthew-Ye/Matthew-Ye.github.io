@@ -31,7 +31,7 @@ div{
 {% endhighlight CSS linenos %}{% endraw %}
 ```
 
-## 使用方法：代码段前加`{% raw %}`，后加`{% endraw %}`
+## 使用方法：代码段前加`raw`标签，后加`endraw`
 
 源代码：
 
