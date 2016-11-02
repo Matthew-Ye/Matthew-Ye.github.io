@@ -102,11 +102,22 @@ end
 
 实现:
 	
-前部加 `｛% highlight 语言 %｝`(这里用中文输入，实际为英文输入法下)
+前部加`{% raw %}{% highlight ruby/other language %}{% endraw %}`(这里用中文输入，实际为英文输入法下)
 
-后部加 `｛% endhighlight %｝`
+后部加 `{% raw %}{% endhighlight %}{% endraw %}`
 
-PS:如果给代码段要添加行号，将最后`｛% endhighlight %｝`改为`｛% highlight ruby linenos %｝`
+PS:如果给代码段要添加行号，将最后`{% raw %}{% endhighlight %}{% endraw %}`改为`{% raw %}{% highlight ruby linenos %}`
+
+代码：
+ `{% raw %}{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}{% endraw %}`
 
 
 ## 参考资料
