@@ -41,17 +41,3 @@ div{
 content
 {% endraw %}
 ```
-
-
-源代码：
-
-```
-{% raw %}
-{% raw %}{% highlight CSS %}
-div{
-	color:red;
-}
-{% endhighlight CSS linenos %}{% endraw %}
-{% endraw %}
-```
-```
