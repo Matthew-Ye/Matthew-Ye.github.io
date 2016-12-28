@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">    
     <title>基本用法</title>
     <style type="text/css">
+        .start {
+            left: initial;
+            top: 50%;
+            right: 10px;
+            -webkit-transform: rotate(90deg);
+        }
+    
 .wp{
     position: absolute;
     top: 0;
@@ -373,7 +380,7 @@ var Zepto=function(){function L(t){return null==t?String(t):T[j.call(t)]||"objec
 }(Zepto, window));
 </script>
     <script>
-        $('.wp-inner').fullpage();
-    </script>
+        $('.wp-inner').fullpage({dir: 'h'});
+            </script>
 </body>
 </html>
