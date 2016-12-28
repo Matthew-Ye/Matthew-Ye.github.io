@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "学苟知本，六经皆我注脚 "
+description: "学无止境，生无所息 "
 header-img: "img/bac.jpg"
 ---
 
@@ -18,13 +18,13 @@ Builded	in 2016-7-17
 ---
 戒骄戒躁，生无所息。
 
-###坚信
+### 坚信
 
 - 眼高手低亦不息 
 - 一切技能皆可习
 
 
-###关注：
+### 关注：
 
 - 光电
 - 电子设计
@@ -37,13 +37,13 @@ Builded	in 2016-7-17
 
 
 
-###代表作：
+### 代表作：
 
 - 无
 
 
 
-###联系
+### 联系
 
 - 博客：[www.mat617.com](www.mat617.com)
 
