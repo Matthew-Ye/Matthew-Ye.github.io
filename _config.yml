@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "Matthew"
-      header-img: "img/bac.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/bac.jpg" # We don't want posts without a header image, that would mean white on white
 
 # Comments 
 comments :
