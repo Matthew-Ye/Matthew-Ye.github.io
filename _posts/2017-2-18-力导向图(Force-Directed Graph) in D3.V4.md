@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 力导向图(Force-Directed Graph) in D3.V4
-date: 2016-11-02
+date: 2017-2-18
 categories: 数据可视化
 tags: [数据可视化,D3]
 description: 简单介绍了第四版D3.js中力导向图的绘制方法。
