@@ -12,10 +12,15 @@ D3.js的第4版在力导向图方面与第3版区别较大。由于发布时间�
 
 本文将基于[https://roshansanthosh.wordpress.com/2016/09/25/forces-in-d3-js-v4/](https://roshansanthosh.wordpress.com/2016/09/25/forces-in-d3-js-v4/)并结合自己的理解，简单介绍几种基础模式，并给出简单示例，对重点进行注解。
 
+---
+[TOC]
+---
+
+
 ## 1. forceX, forceY 
 最简单的恢复力，使一个节点回到最稳定的位置。
 
-[点我显示效果](https://github.com/Matthew-Ye/d3/blob/master/positioningForce.html)
+[点我显示效果](http://htmlpreview.github.io/?https://github.com/Matthew-Ye/d3/blob/master/positioningForce.html)
 
 ```html
 <html>  
@@ -235,7 +240,7 @@ D3将所有节点视作相同的质量，Centering Forces使整个系统的质�
     </body>  
 </html>  
 ```
-[最终效果](https://github.com/Matthew-Ye/d3/blob/master/centeringForce.html)
+[最终效果](http://htmlpreview.github.io/?https://github.com/Matthew-Ye/d3/blob/master/centeringForce.html)
 
 ## 3. forceManyBody
 ForceManyBody可以用来仿真引力和斥力，如万有引力和静电力。所有节点相互之间都存在力。
@@ -255,7 +260,7 @@ ForceManyBody可以用来仿真引力和斥力，如万有引力和静电力。�
 - distanceMax: 考虑力的最大距离
 - distanceMin: 考虑力的最小距离
 
-[最终效果](https://github.com/Matthew-Ye/d3/blob/master/manyBodyForces.html)
+[最终效果](http://htmlpreview.github.io/?https://github.com/Matthew-Ye/d3/blob/master/manyBodyForces.html)
 
 ## 4. forceCollide
 上一节我们虽然引入了吸引力和排斥力，但是当我们快速移动节点时会穿越。一般来说，这在我们的物理世界中是不科学的。因此我们可以需要引入碰撞力。   
@@ -275,7 +280,7 @@ ForceManyBody可以用来仿真引力和斥力，如万有引力和静电力。�
 - collide.iterations([iterations])   
 iterations为迭代次数。次数越多，约束的刚性越好，节点也越不易重叠，但是相应的运行时间会增加，缺省为1。
 
-[最终效果](https://github.com/Matthew-Ye/d3/blob/master/collisionForces.html)
+[最终效果](http://htmlpreview.github.io/?https://github.com/Matthew-Ye/d3/blob/master/collisionForces.html)
 
 ## 5. forceLink
 节点之间的力，因此我们需要在定义节点的同时再定义他们之间的联系。
@@ -308,7 +313,7 @@ var simulation = d3.forceSimulation(nodeData).alphaDecay(0.01).force("linkForce"
     																			.force("center", d3.forceCenter(width / 2, height / 2));
 ```
 
-效果如[Link Forces1](https://github.com/Matthew-Ye/d3/blob/master/forceLink1.html)
+效果如[Link Forces1](http://htmlpreview.github.io/?https://github.com/Matthew-Ye/d3/blob/master/forceLink1.html)
 
 ### 引入标注
 此时我们无法分辨节点的id，因此我们引入标注：
@@ -341,7 +346,7 @@ var simulation = d3.forceSimulation(nodeData).alphaDecay(0.01).force("linkForce"
 				        return d.y;
 				   })
 ```
-效果如[Link Forces2](https://github.com/Matthew-Ye/d3/blob/master/forceLink2.html)
+效果如[Link Forces2](http://htmlpreview.github.io/?https://github.com/Matthew-Ye/d3/blob/master/forceLink2.html)
 
 ### 引入线条links
 虽然此时Link Forces已经存在，但是我们看不到它。因此有时我们需要把它们显示出来，因此引入Links。
@@ -380,7 +385,7 @@ var simulation = d3.forceSimulation(nodeData).alphaDecay(0.01).force("linkForce"
 </style>
 ```
 我们就可以看到最终效果：
-[Link Forces3](https://github.com/Matthew-Ye/d3/blob/master/forceLink3.html)
+[Link Forces3](http://htmlpreview.github.io/?https://github.com/Matthew-Ye/d3/blob/master/forceLink3.html)
 
 ## 小结
 本文仅仅简单介绍了新版D3的力导向图部分，仅冰山一角，还有很多有趣的内容大家可以自行探索。Canvas绘图可以参考[Force-Directed Tree II](https://bl.ocks.org/mbostock/9a8124ccde3a4e9625bc413b48f14b30)。文中如有错误和不足，欢迎指出。
