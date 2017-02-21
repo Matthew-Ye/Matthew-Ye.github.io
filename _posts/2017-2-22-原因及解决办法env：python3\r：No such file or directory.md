@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 原因及解决办法 env- python3\r- No such file or directory
+title: 原因及解决办法env：python3\r：No such file or directory
 date: 2017-2-22
 categories: python
 tags: [python]
