@@ -4,7 +4,7 @@ title: 原因及解决办法env：python3\r：No such file or directory
 date: 2017-2-22
 categories: python
 tags: [python]
-description: Linux/OSX系统中运行win系统下写的py文件也许会“env: python3\r: No such file or directory”，本文解释该现象原因并给出解决方法。
+description: 本文解释该BUG原因并给出解决方法。
 ---
 
 # 原因及解决办法env：python3\r：No such file or directory
