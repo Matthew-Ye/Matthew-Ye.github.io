@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 力导向图(Force-Directed Graph) in D3.V4
+title: 力导向图简介(Force-Directed Graph) in D3.V4
 date: 2017-2-18
 categories: 数据可视化
 tags: [数据可视化,D3]
 description: 简单介绍了第四版D3.js中力导向图的绘制方法。
 ---
 
-# 力导向图(Force-Directed Graph) in D3.V4
+# 力导向图简介(Force-Directed Graph) in D3.V4
 D3.js的第4版在力导向图方面与第3版区别较大。由于发布时间尚短，笔者发现国内几乎没有这方面的总结或教程，故借着学习记录总结。更具体的说明情参考[D3技术手册](https://github.com/d3/d3/wiki/Tutorials), [力导向图部分](https://github.com/d3/d3-force)
 
 本文将基于[https://roshansanthosh.wordpress.com/2016/09/25/forces-in-d3-js-v4/](https://roshansanthosh.wordpress.com/2016/09/25/forces-in-d3-js-v4/)并结合自己的理解，简单介绍几种基础模式，并给出简单示例，对重点进行注解。
