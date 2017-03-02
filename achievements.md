@@ -11,3 +11,6 @@ header-img: "img/semantic.jpg"
 
 [**移动端简历**]({{ http://mat617.com }}/2016-12-27-resume2.html) 
 
+[**Test for new.html**]({{ http://mat617.com }}/test/new.html) 
+
+[**Test for new.html**]({{ http://mat617.com }}/test/speech/index.html) 
