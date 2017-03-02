@@ -5,6 +5,7 @@ var strongEl = document.getElementById('latest-word');
 
 // new instance of speech recognition
 var recognition = new webkitSpeechRecognition();
+recognition.lang = "en-GB";
 // set params
 recognition.continuous = true;
 recognition.interimResults = true;
