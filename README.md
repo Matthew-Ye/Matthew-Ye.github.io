@@ -6,7 +6,7 @@
 
 I'm Matthew Ye，Blog：[mat617.com](mat617.com)   
    
-一个光电转前端的妄想者
+妄想者｜猫奴
 
 ##坚信
 - 眼高手低亦不息 
@@ -15,6 +15,7 @@ I'm Matthew Ye，Blog：[mat617.com](mat617.com)
 ##关注：
 
 - 前端
+- 自然语言处理NLP
 - 爬虫
 - C/C++
 - Qt
